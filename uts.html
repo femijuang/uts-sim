@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href=".css"/>
+    <style>
+     #nama, #nim {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, red, orange);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+    }
+    
+    #nilai {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, green, lime);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        width        : 100px;
+        float        : ;
+        margin-bottom: ;
+    }
+    
+    input[type="button"], input[type="reset"] {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, red, orange);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+    }
+
+    input[type="button"]:hover {
+        background   : linear-gradient(to bottom, red, orange);
+    }
+
+    input[type="button"]:active {
+        background   : linear-gradient(to right, lime, yellow);
+    }
+    input[type="text"] {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, green, lime);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+        width        : 100px;
+    }
+    body {
+        text-align   : ; 
+        font-size    : 16px;
+        font-family  : sans-serif;
+    }
+    .biodata {
+     float  : right;
+    }
+    </style>
+    <script src="engine.js" async></script>
+</head>
+<body>
+    
+     <h2>Soal Pilihan Ganda (UTS)</h2>
+     <p>Pilih Satu (1) Jawaban Yang Anda Anggap Benar!</p>
+     
+<form name="uts">
+  <div class="biodata">
+    <p id="nama">Nama Anda</p>
+    <p id="nim">NIM Anda</p>
+  </div>
+
+<ol>
+<pre>
+<li>SIM kependekan dari ...
+<select name="item1">
+ <option value="">Pilih Jawaban</option>
+ <option value="item1a">Sistem Intelijen Masyarakat</option>
+ <option value="item1b">Surat izin menikah</option>
+ <option value="item1c">Surat izin mengemudi</option>
+ <option value="item1d">Sistem informasi manajemen</option>
+</select>
+</li>
+
+<li>Dewasa ini, SIM semakin ...
+<select name="item2">
+<option value="">Pilih Jawaban</option>
+<option value="item2a">Berkembang pesat</option>
+<option value="item2b">Stagnan</option>
+<option value="item2c">Mahal</option>
+<option value="item2d">Murah</option>
+</select>
+</li>
+       
+<li>SIM selalu berbasis komputer ...
+<select name="item3">
+<option value="">Pilih Jawaban</option>
+<option value="item3a">Netral</option>
+<option value="item3b">Ragu</option>
+<option value="item3c">Tidak</option>
+<option value="item3d">Ya</optuion>
+</select>
+</li>
+      
+<li>SIM bersifat ...
+<select name="item4">
+<option value="">Pilih Jawaban</option>
+<option value="item4a">Auto</option>
+<option value="item4b">Semi</option>
+<option value="item4c">Tertutup</option>
+<option value="item4d">Terbuka</option>
+</select>
+</li>
+
+<li>Ruang lingkup SIM dibatasi oleh ...
+<select name="item5">
+<option value="">Pilih Jawaban</option>
+<option value="item5a">Informasi</option>
+<option value="item5b">Sistem</option>
+<option value="item5c">Manajemen</option>
+<option value="item5d">Semua Salah</option>
+</select>
+</li>
+
+<li>SIM, memungkinkan pengaruh dari arah ...
+<select name="item6">
+<option value="">Pilih Jawaban</option>
+<option value="item6a">Internal</option>
+<option value="item6b">A dan C Benar</option>
+<option value="item6c">Eksternal</option>
+<option value="item6d">Output</option>
+</select>
+</li>
+
+<li>SIM dimanfaatkan hanya didunia IT ...
+<select name="item7">
+<option value="">Pilih Jawaban</option>
+<option value="item7a">Tidak</option>
+<option value="item7b">Betul</option>
+<option value="item7c">Netral</option>
+<option value="item7d">Ragu</option>
+</select>
+</li>
+
+<li>Informasi adalah kumpulan ...
+<select name="item8">
+<option value="">Pilih Jawaban</option>
+<option value="item8a">Kepintaran</option>
+<option value="item8b">Pengetahuan</option>
+<option value="item8c">Fakta</option>
+<option value="item8d">Data</option>
+</select>
+</li>
+
+<li>Data adalah kumpulan ...
+<select name="item9">
+<option value="">Pilih Jawaban</option>
+<option value="item9a">Fakta</option>
+<option value="item9b">Informasi</option>
+<option value="item9c">Pengetahuan</option>
+<option value="item9d">Sistem</option>
+</select>
+</li>
+
+<li>Fakta adalah kumpulan ...
+<select name="item10">
+<option value="">Pilih Jawaban</option>
+<option value="item10a">Pengetahuan</option>
+<option value="item10b">Data</option>
+<option value="item10c">Fakta</option>
+<option value="item10d">Semua Benar</option>
+</select>
+</li>
+
+<li>Bagian dari manajemen ...
+<select name="item11">
+<option value="">Pilih Jawaban</option>
+<option value="item11a">Semua Benar</option>
+<option value="item11b">Perencanaan</option>
+<option value="item11c">Pengorganisasian</option>
+<option value="item11d">Evaluasi</option>
+</select>
+</li>
+
+<li>Bagian dari manajemen ...
+<select name="item12">
+<option value="">Pilih Jawaban</option>
+<option value="item12a">Coding</option>
+<option value="item12b">Pengawasan</option>
+<option value="item12c">Programming</option>
+<option value="item12d">Semua Salah</option>
+</select>
+</li>
+
+<li>Pengambilan keputusan harus berdasarkan ...
+<select name="item13">
+<option value="">Pilih Jawaban</option>
+<option value="item13a">Fakta</option>
+<option value="item13b">Data</option>
+<option value="item13c">Informasi</option>
+<option value="item13d">Semua Salah</option>
+</select>
+</li>
+
+<li>Bagian dari organisasi ..
+<select name="item14">
+<option value="">Pilih Jawaban</option>
+<option value="item14a">Divisi</option>
+<option value="item14b">Unit</option>
+<option value="item14c">Semua Benar</option>
+<option value="item14d">Fungsi</option>
+</select>
+</li>
+
+<li>Setiap sistem pasti di pengaruhi oleh ...
+<select name="item15">
+<option value="">Pilih Jawaban</option>
+<option value="item15a">Kumpulan pengetahuan</option>
+<option value="item15b">Kumpulan fakta</option>
+<option value="item15c">Arus data</option>
+<option value="item15d">Pertukaran informasi</option>
+</select>
+</li>
+
+<li>Pengembangan sistem terjadi karena ...
+<select name="item16">
+<option value="">Pilih Jawaban</option>
+<option value="item16a">Suara terbanyak</option>
+<option value="item16b">Hayalan</option>
+<option value="item16c">Riset</option>
+<option value="item16d">Keinginan</option>
+</select>
+</li>
+
+<li>Pengembangan sistem dilakukan karena ...
+<select name="item17">
+<option value="">Pilih Jawaban</option>
+<option value="item17a">Semua Benar</option>
+<option value="item17b">Revolusi teknologi</option>
+<option value="item17c">Perubahan produk</option>
+<option value="item17d">Luapan informasi</option>
+</select>
+</li>
+
+<li>SIM menurunkan resiko dari ...
+<select name="item18">
+<option value="">Pilih Jawaban</option>
+<option value="item18a">Nasib lembaga</option>
+<option value="item18b">R&D</option>
+<option value="item18c">Decision making</option>
+<option value="item18d">Development</option>
+</select>
+</li>
+
+<li>Lebih dahulu SIM atau komputer ...
+<select name="item19">
+<option value="">Pilih Jawaban</option>
+<option value="item19a">SIM</option>
+<option value="item19b">Komputer</option>
+<option value="item19c">Bersamaan</option>
+<option value="item19d">Semua Salah</option>
+</select>
+</li>
+
+<li>Data dan informasi adalah ...
+<select name="item20">
+<option value="">Pilih Jawaban</option>
+<option value="item20a">Semua Benar</option>
+<option value="item20b">Berbeda</option>
+<option value="item20c">Sama</option>
+<option value="item20d">Semi</option>
+</select>
+</li>
+</pre>
+</ol>
+     
+     
+<p>Mohon, Refresh browser apabila Nilai belum termuat, lalu click kembali "Submit"!</p>     
+<input type="button" value="Submit" onclick="penilaian()"> <input type="reset"> 
+<input type="text" name="nilai" placeholder="Nilai Anda">
+    
+</form>
+     
+
+</body>
+</html>

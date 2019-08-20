@@ -1,0 +1,119 @@
+.container {
+  margin       : auto;
+  border       : 5px ridge orange;
+  width        : 900px;
+  height       : 640px;
+  text-align   : center;
+  background   : url('INA.png');
+  background-repeat : no-repeat;
+}
+
+input {
+  text-align   : center; 
+  font-size    : 16px;
+}
+
+input[type="button"], input[type="reset"] {
+  font-family  : Arial, Helvetica, sans-serif;
+  font-size    : 14px;
+  color        : ;
+  padding      : 10px 20px;
+  border       : 2px solid orange;
+  cursor       : pointer;
+  border-radius: 10px;
+  background   : linear-gradient(to top, red, orange);
+  box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+  user-select  : none;
+  margin-top   : 10px;
+}
+
+input[type="button"]:hover {
+  background   : linear-gradient(to bottom, red, orange);
+}
+
+input[type="button"]:active {
+  background   : linear-gradient(to right, lime, yellow);
+}
+
+
+.header {
+  margin            : auto;
+  border            : ;
+  border-radius     : ;
+  width             : 770px;
+  height            : 130px;
+  text-align        : center;
+  background        : url('pine.png');
+  background-repeat : no-repeat;
+  display           : ;
+  align-items       : ;
+  justify-content   : ;
+  float             : right;
+}
+
+
+.section {
+  margin       : auto;
+  border       : ;
+  width        : 770px;
+  height       : 480px;
+  text-align   : center;
+  float        : right;
+}
+
+.iframe {
+  margin       : auto;
+  border       : 5px ridge green;
+  width        : 765px;
+  height       : 480px;
+  text-align   : center;
+}
+
+.nav {
+  margin-top   : 200px;
+  margin-left  : 15px;
+  padding-top  : 130px;
+  box-sizing   : border-box;
+  border-radius: 40px;
+  width        : 100px;
+  height       : 350px;
+  text-align   : center;
+  float        : left;
+  display      : ;
+  background   : url('pine.png');
+}
+
+
+.footer {
+  margin       : auto;
+  border       : ;
+  background   : url('data/pine.png');
+  width        : 770px;
+  height       : 20px;
+  text-align   : center;
+  float        : right;
+  margin-top   : 10px;
+}
+
+ a {
+        text-align   : center; 
+        font-size    : 16px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, red, orange);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+    }
+
+a:hover {
+        background   : linear-gradient(to bottom, red, orange);
+}
+
+a:active {
+        background   : linear-gradient(to right, lime, yellow);
+}
