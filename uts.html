@@ -73,6 +73,21 @@
         text-decoration: none;
         width        : 100px;
     }
+    input[type="submit"] {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, blue, cyan);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+        width        : 100px;
+    }
     body {
         text-align   : ; 
         font-size    : 16px;
@@ -86,17 +101,20 @@
 </head>
 <body>
     
-     <h2>Soal Pilihan Ganda (UTS)</h2>
-     <p>Pilih Satu (1) Jawaban Yang Anda Anggap Benar!</p>
-     
-<form name="uts">
-  <div class="biodata">
-    <p id="nama">Nama Anda</p>
-    <p id="nim">NIM Anda</p>
+<form action="https://script.google.com/macros/s/AKfycbxnQ7IutIC2PeLbHM2E5gtz-8ODiULMnXpMqQkMHw/exec" method="POST" name="uts">
+
+<pre> 
+ <div class="biodata">
+    <input type="text" name="tanggal" placeholder="dd-mm-yyyy"/>
+    <input type="text" name="name" placeholder="Nama Anda"/>
+    <input type="text" name="nim" placeholder="NIM"/>
+    <input type="text" name="semester" placeholder="Semester"/>
+    <input type="hidden" name="matkul" value="SIM (UTS)">
   </div>
+<h2>Soal Pilihan Ganda (UTS)</h2>
+<p>Pilih Satu (1) Jawaban Yang Anda Anggap Benar!</p>    
 
 <ol>
-<pre>
 <li>SIM kependekan dari ...
 <select name="item1">
  <option value="">Pilih Jawaban</option>
@@ -301,8 +319,12 @@
      
      
 <p>Mohon, Refresh browser apabila Nilai belum termuat, lalu click kembali "Submit"!</p>     
-<input type="button" value="Submit" onclick="penilaian()"> <input type="reset"> 
-<input type="text" name="nilai" placeholder="Nilai Anda">
+<input type="button" value="Submit" onclick="penilaian()">  
+<input type="button" value="Nilai" name="nilai" placeholder="Nilai Anda">
+<input type="hidden" name="score"/>
+
+
+<input type="submit" value="Send">
     
 </form>
      

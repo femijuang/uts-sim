@@ -1,24 +1,4 @@
 
-var namaUser = document.querySelector('#nama');
-var nimUser  = document.querySelector('#nim');
-
-namaUser.addEventListener('click', inputNama);
-
-function inputNama() {
-    var name = prompt('Masukan Nama Anda!');
-    namaUser.textContent = name;
-}
-
-
-nimUser.addEventListener('click', inputNim);
-
-function inputNim() {
-    var nim = prompt('Masukan Nama Anda!');
-    nimUser.textContent = nim;
-}
-
-
-
 var no1 = document.uts.item1.value;
 var no2 = document.uts.item2.value;
 var no3 = document.uts.item3.value;
@@ -128,8 +108,8 @@ function penilaian() {
   
   
   document.uts.nilai.value = nilaiHuruf +" " + "("+nilaiAngka+")";
- 
-
+  var score = document.uts.nilai.value;
+  document.uts.score.value = score;
 
   
 /*  
@@ -146,3 +126,5 @@ window.removeEventListener("keydown", keydownHandler, false);
 input.disabled = true;
 */
 }
+
+

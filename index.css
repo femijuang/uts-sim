@@ -2,7 +2,7 @@
   margin       : auto;
   border       : 5px ridge orange;
   width        : 900px;
-  height       : 640px;
+  height       : 610px;
   text-align   : center;
   background   : url('INA.png');
   background-repeat : no-repeat;
@@ -41,7 +41,7 @@ input[type="button"]:active {
   border            : ;
   border-radius     : ;
   width             : 770px;
-  height            : 130px;
+  height            : 100px;
   text-align        : center;
   background        : url('pine.png');
   background-repeat : no-repeat;
@@ -63,7 +63,7 @@ input[type="button"]:active {
 
 .iframe {
   margin       : auto;
-  border       : 5px ridge green;
+  border       : 5px ridge orange;
   width        : 765px;
   height       : 480px;
   text-align   : center;
