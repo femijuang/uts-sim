@@ -24,6 +24,9 @@ var no20 = document.uts.item20.value;
 var nilaiAngka = 0;
 var nilaiHuruf = "";
 
+var sendBtn = document.querySelector(".sendBtn");
+sendBtn.style.display = "none"
+
 
 function penilaian() {
   
@@ -107,10 +110,9 @@ function penilaian() {
   }
   
   
-  document.uts.nilai.value = nilaiHuruf +" " + "("+nilaiAngka+")";
-  var score = document.uts.nilai.value;
-  document.uts.score.value = score;
-
+  document.uts.score.value = nilaiHuruf +" " + "("+nilaiAngka+")";
+  
+  sendBtn.style.display = "inline";
   
 /*  
 //Disable the button
