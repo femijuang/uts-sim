@@ -1,3 +1,4 @@
+function penilaian() {
 
 var no1 = document.uts.item1.value;
 var no1 = no1.toLowerCase();
@@ -74,7 +75,7 @@ sendBtn.style.display = "none"
 var submitBtn = document.querySelector(".submitBtn");
 
 
-function penilaian() {
+
  
   if (no1==="d") {
     nilaiAngka+=5;

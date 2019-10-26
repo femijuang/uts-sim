@@ -39,6 +39,11 @@ h2 {
 
 
 /*style uts.html dan uas.html..........................................*/
+.container {
+  width        : 800px;
+  margin       : auto;
+}
+
 input[type="button"], input[type="reset"] {
   text-align   : center; 
   font-size    : 18px;
