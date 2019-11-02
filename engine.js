@@ -70,7 +70,6 @@ var nilaiAngka = 0;
 var nilaiHuruf = "";
 
 var sendBtn = document.querySelector(".sendBtn");
-sendBtn.style.display = "none"
 
 var submitBtn = document.querySelector(".submitBtn");
 

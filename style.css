@@ -97,10 +97,17 @@ input[type="text"] {
  user-select  : none;
  text-decoration: none;
  width        : 100px;
+ display      : none;
 }
 
 .biodata {
  float  : right;
+}
+
+.logo {
+ float  : right;
+ width  : 200px;
+ height : 200px;
 }
 
 .subItem {
